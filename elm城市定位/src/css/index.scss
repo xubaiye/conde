@@ -1,0 +1,23 @@
+
+//水平垂直居中
+@mixin kernel {
+	display: flex;
+	
+	justify-content: center;
+	align-items: center;
+}
+//宽度100%
+@mixin Width{
+	width: 100%;
+}
+//垂直居中
+@mixin Vertical{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+//水平居中
+@mixin Center{
+	display: flex;
+	align-items: center;
+}
